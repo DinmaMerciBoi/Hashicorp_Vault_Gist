@@ -137,7 +137,7 @@ In our case we create `docker-compose.dev.yml` file, where we configured all nec
 version: '3.6'
 services:
   vault:
-    image: vault:latest
+    image: hashicorp/vault:latest
     container_name: vault
     restart: on-failure:10
     ports:
